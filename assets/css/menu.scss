@@ -1,0 +1,35 @@
+.navigationTop{
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 3;
+
+  .leftSide{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    a.menuBurger{
+      width: 32px;
+      text-decoration: none;
+      img{
+        width: 32px;
+      }
+    }
+    a.logo{
+      text-decoration: none;
+      margin-left: 20px;
+      width: 65px;
+      img{
+        max-width: 65px;
+      }
+    }
+  }
+
+  .rightSide{
+    display: flex;
+    align-items: center;
+    align-content: center;
+  }
+
+}
